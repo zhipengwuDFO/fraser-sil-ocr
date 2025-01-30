@@ -1,0 +1,188 @@
+{
+    "Date": [
+        "Sept 21/2019",
+        0.569
+    ],
+    "Stream": [
+        "Quesnel Lake-North Arm-East Shore",
+        0.826
+    ],
+    "Survey Start Time": [
+        "1212",
+        0.965
+    ],
+    "Survey End Time": [
+        "1232",
+        0.974
+    ],
+    "Survey type Ground": [
+        ":selected:",
+        0.84
+    ],
+    "Survey type Aerial": [
+        ":unselected:",
+        0.958
+    ],
+    "%Bankfull <25": [
+        ":unselected:",
+        0.96
+    ],
+    "%Bankfull 25-50": [
+        ":unselected:",
+        0.961
+    ],
+    "%Bankfull 50-75": [
+        ":unselected:",
+        0.959
+    ],
+    "%Bankfull 75-100": [
+        ":selected:",
+        0.961
+    ],
+    "%Bankfull +100": [
+        ":unselected:",
+        0.96
+    ],
+    "Weather Brightness Full": [
+        ":selected:",
+        0.972
+    ],
+    "Weather Brightness Bright": [
+        ":unselected:",
+        0.971
+    ],
+    "Weather Brightness Medium": [
+        ":unselected:",
+        0.972
+    ],
+    "Weather Brightness Dark": [
+        ":unselected:",
+        0.972
+    ],
+    "Weather %Cloudy 0": [
+        ":unselected:",
+        0.966
+    ],
+    "Weather %Cloudy 25%": [
+        ":selected:",
+        0.971
+    ],
+    "Weather %Cloudy 50%": [
+        ":unselected:",
+        0.968
+    ],
+    "Weather %Cloudy 75%": [
+        ":unselected:",
+        0.969
+    ],
+    "Weather %Cloudy 100%": [
+        ":unselected:",
+        0.966
+    ],
+    "Precipitation Type Rain": [
+        ":unselected:",
+        0.966
+    ],
+    "Precipitation Type Snow": [
+        ":unselected:",
+        0.967
+    ],
+    "Precipitation Type None": [
+        ":selected:",
+        0.969
+    ],
+    "Precipitation Intensity Light": [
+        ":unselected:",
+        0.954
+    ],
+    "Precipitation Intensity Medium": [
+        ":unselected:",
+        0.956
+    ],
+    "Precipitation Intensity Heavy": [
+        ":unselected:",
+        0.952
+    ],
+    "Water Conditions Fish Visibility Low": [
+        ":unselected:",
+        0.957
+    ],
+    "Water Conditions Fish Visibility Medium": [
+        ":selected:",
+        0.958
+    ],
+    "Water Conditions Fish Visibility High": [
+        ":unselected:",
+        0.956
+    ],
+    "Water Conditions Water Temperature": [
+        "15.5",
+        0.847
+    ],
+    "Water Conditions Water Clarity 0-0.25": [
+        ":unselected:",
+        0.63
+    ],
+    "Water Conditions Water Clarity 0.25-0.5": [
+        ":unselected:",
+        0.964
+    ],
+    "Water Conditions Water Clarity 0.5-1.0": [
+        ":unselected:",
+        0.968
+    ],
+    "Water Conditions Water Clarity 1-3": [
+        ":unselected:",
+        0.973
+    ],
+    "Water Conditions Water Clarity 3 to Bottom": [
+        ":selected:",
+        0.973
+    ],
+    "Comments": [
+        "Surface ripples made observation\ndifficult . Appeared to be only one small area\nwith fish actively spawning.",
+        0.546
+    ],
+    "Visual Survey": [
+        {
+            "Area": [
+                "Goose",
+                0.855
+            ],
+            "Live Count": [
+                "42",
+                0.706
+            ],
+            "% O.E.": [
+                "90",
+                0.625
+            ],
+            "Fish Behaviour % Spawning": [
+                "100",
+                0.749
+            ],
+            "Fish Behaviour % Spawned Out": [
+                "2",
+                0.095
+            ]
+        },
+        {
+            "Area": [
+                "Point",
+                0.891
+            ],
+            "Fish Behaviour Holding/Migrating": [
+                "1",
+                0.076
+            ]
+        }
+    ],
+    "Sockeye Untagged Recoveries": [
+        {
+            "Female Spawn 0%": [
+                "U",
+                0.123
+            ]
+        }
+    ]
+}

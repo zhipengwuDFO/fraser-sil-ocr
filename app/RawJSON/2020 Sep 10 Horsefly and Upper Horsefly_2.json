@@ -1,0 +1,240 @@
+{
+    "Date": [
+        "Sept/10/20",
+        0.154
+    ],
+    "Stream": [
+        "Upper Horsefly River",
+        0.903
+    ],
+    "Survey Start Time": [
+        "937-",
+        0.943
+    ],
+    "Survey End Time": [
+        "1211/",
+        0.639
+    ],
+    "Survey type Ground": [
+        ":selected:",
+        0.941
+    ],
+    "Survey type Aerial": [
+        ":unselected:",
+        0.949
+    ],
+    "%Bankfull <25": [
+        ":unselected:",
+        0.967
+    ],
+    "%Bankfull 25-50": [
+        ":selected:",
+        0.961
+    ],
+    "%Bankfull 50-75": [
+        ":unselected:",
+        0.962
+    ],
+    "%Bankfull 75-100": [
+        ":unselected:",
+        0.956
+    ],
+    "%Bankfull +100": [
+        ":unselected:",
+        0.955
+    ],
+    "Weather Brightness Full": [
+        ":selected:",
+        0.973
+    ],
+    "Weather Brightness Bright": [
+        ":unselected:",
+        0.975
+    ],
+    "Weather Brightness Medium": [
+        ":unselected:",
+        0.967
+    ],
+    "Weather Brightness Dark": [
+        ":selected:",
+        0.526
+    ],
+    "Weather %Cloudy 0": [
+        ":unselected:",
+        0.97
+    ],
+    "Weather %Cloudy 25%": [
+        ":selected:",
+        0.972
+    ],
+    "Weather %Cloudy 50%": [
+        ":unselected:",
+        0.969
+    ],
+    "Weather %Cloudy 75%": [
+        ":unselected:",
+        0.967
+    ],
+    "Weather %Cloudy 100%": [
+        ":unselected:",
+        0.753
+    ],
+    "Precipitation Type Rain": [
+        ":unselected:",
+        0.968
+    ],
+    "Precipitation Type Snow": [
+        ":unselected:",
+        0.971
+    ],
+    "Precipitation Type None": [
+        ":selected:",
+        0.974
+    ],
+    "Precipitation Intensity Light": [
+        ":unselected:",
+        0.973
+    ],
+    "Precipitation Intensity Medium": [
+        ":unselected:",
+        0.976
+    ],
+    "Precipitation Intensity Heavy": [
+        ":unselected:",
+        0.97
+    ],
+    "Water Conditions Fish Visibility Low": [
+        ":unselected:",
+        0.968
+    ],
+    "Water Conditions Fish Visibility Medium": [
+        ":unselected:",
+        0.971
+    ],
+    "Water Conditions Fish Visibility High": [
+        ":selected:",
+        0.974
+    ],
+    "Water Conditions Water Clarity 0-0.25": [
+        ":unselected:",
+        0.973
+    ],
+    "Water Conditions Water Clarity 0.25-0.5": [
+        ":unselected:",
+        0.971
+    ],
+    "Water Conditions Water Clarity 0.5-1.0": [
+        ":unselected:",
+        0.974
+    ],
+    "Water Conditions Water Clarity 1-3": [
+        ":unselected:",
+        0.971
+    ],
+    "Water Conditions Water Clarity 3 to Bottom": [
+        ":selected:",
+        0.968
+    ],
+    "Gauge": [
+        "0,309n",
+        0.542
+    ],
+    "Area": [
+        "10",
+        0.604
+    ],
+    "Comments": [
+        "Fish look healthy spawn)\nNo thermometer",
+        0.072
+    ],
+    "Comments in table": [
+        "and 4 chinook in Area 9\nRecovered & chinook in area 10 and\nPSC (scale samples) sampled all 6.\nSockque in area\nO are in early stages\nof spawning, but\nactively digging\nPSC sampled &m and\n10 F (included in ree totals)\nFrom",
+        0.1
+    ],
+    "Visual Survey": [
+        {
+            "Area": [
+                "10,\n9,",
+                0.14
+            ],
+            "Live Count": [
+                "37/\n196",
+                0.15
+            ],
+            "% O.E.": [
+                "90%\n90%",
+                0.323
+            ],
+            "Fish Behaviour Holding/Migrating": [
+                "0%19 10%\n10%",
+                0.027
+            ],
+            "Fish Behaviour % Spawning": [
+                "90%\n80%",
+                0.064
+            ],
+            "Fish Behaviour % Spawned Out": [
+                "10%",
+                0.752
+            ],
+            "Live Tagged": [
+                "\u00a2\n\u20ac",
+                0.004
+            ],
+            "Other Species": [
+                "12,\n97,",
+                0.093
+            ]
+        }
+    ],
+    "Sockeye Untagged Recoveries": [
+        {
+            "Area": [
+                "10",
+                0.881
+            ],
+            "Male": [
+                "\u00d8",
+                0.123
+            ],
+            "Female": [
+                "8",
+                0.151
+            ],
+            "Jack": [
+                "\u20ac",
+                0.069
+            ],
+            "Unsexed": [
+                "0",
+                0.44
+            ]
+        },
+        {
+            "Area": [
+                "9",
+                0.772
+            ],
+            "Male": [
+                "6",
+                0.722
+            ],
+            "Female": [
+                "1)",
+                0.261
+            ],
+            "Female Spawn 100%": [
+                "10%",
+                0.506
+            ],
+            "Jack": [
+                "F",
+                0.057
+            ],
+            "Unsexed": [
+                "1/",
+                0.482
+            ]
+        }
+    ]
+}

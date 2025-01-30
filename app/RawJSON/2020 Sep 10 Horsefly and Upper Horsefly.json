@@ -1,0 +1,294 @@
+{
+    "Date": [
+        "09/10/2020",
+        0.969
+    ],
+    "Stream": [
+        "Horsefly River/",
+        0.727
+    ],
+    "Survey Start Time": [
+        "(0820",
+        0.642
+    ],
+    "Survey End Time": [
+        "14:40",
+        0.945
+    ],
+    "Survey type Ground": [
+        ":selected:",
+        0.954
+    ],
+    "Survey type Aerial": [
+        ":unselected:",
+        0.961
+    ],
+    "%Bankfull <25": [
+        ":unselected:",
+        0.968
+    ],
+    "%Bankfull 25-50": [
+        ":selected:",
+        0.971
+    ],
+    "%Bankfull 50-75": [
+        ":unselected:",
+        0.971
+    ],
+    "%Bankfull 75-100": [
+        ":unselected:",
+        0.968
+    ],
+    "%Bankfull +100": [
+        ":unselected:",
+        0.949
+    ],
+    "Weather Brightness Full": [
+        ":selected:",
+        0.972
+    ],
+    "Weather Brightness Bright": [
+        ":unselected:",
+        0.972
+    ],
+    "Weather Brightness Medium": [
+        ":unselected:",
+        0.969
+    ],
+    "Weather Brightness Dark": [
+        ":unselected:",
+        0.952
+    ],
+    "Weather %Cloudy 0": [
+        ":selected:",
+        0.975
+    ],
+    "Weather %Cloudy 25%": [
+        ":unselected:",
+        0.967
+    ],
+    "Weather %Cloudy 50%": [
+        ":unselected:",
+        0.97
+    ],
+    "Weather %Cloudy 75%": [
+        ":unselected:",
+        0.97
+    ],
+    "Weather %Cloudy 100%": [
+        ":unselected:",
+        0.967
+    ],
+    "Precipitation Type Rain": [
+        ":unselected:",
+        0.977
+    ],
+    "Precipitation Type Snow": [
+        ":unselected:",
+        0.975
+    ],
+    "Precipitation Type None": [
+        ":selected:",
+        0.975
+    ],
+    "Precipitation Intensity Light": [
+        ":unselected:",
+        0.97
+    ],
+    "Precipitation Intensity Medium": [
+        ":unselected:",
+        0.973
+    ],
+    "Precipitation Intensity Heavy": [
+        ":unselected:",
+        0.97
+    ],
+    "Water Conditions Fish Visibility Low": [
+        ":unselected:",
+        0.968
+    ],
+    "Water Conditions Fish Visibility Medium": [
+        ":unselected:",
+        0.968
+    ],
+    "Water Conditions Fish Visibility High": [
+        ":selected:",
+        0.974
+    ],
+    "Water Conditions Water Clarity 0-0.25": [
+        ":unselected:",
+        0.971
+    ],
+    "Water Conditions Water Clarity 0.25-0.5": [
+        ":unselected:",
+        0.974
+    ],
+    "Water Conditions Water Clarity 0.5-1.0": [
+        ":unselected:",
+        0.976
+    ],
+    "Water Conditions Water Clarity 1-3": [
+        ":unselected:",
+        0.968
+    ],
+    "Water Conditions Water Clarity 3 to Bottom": [
+        ":selected:",
+        0.971
+    ],
+    "Comments": [
+        "Tipssample Ferna deusions prevents peaks of spawn)\nunsamplable due to predation\nAll fish in good condition",
+        0.148
+    ],
+    "Comments in table": [
+        "5 Females 2\n2 males\nPSC\nSampled\nFrom area 6 + 2-Females\n1 male\nfrom area 5 included in recovery\ntotals",
+        0.104
+    ],
+    "Visual Survey": [
+        {
+            "Area": [
+                "6",
+                0.974
+            ],
+            "Live Count": [
+                "68",
+                0.978
+            ],
+            "% O.E.": [
+                "70,",
+                0.72
+            ],
+            "Fish Behaviour Holding/Migrating": [
+                "30%",
+                0.949
+            ],
+            "Fish Behaviour % Spawning": [
+                "70%",
+                0.954
+            ],
+            "Fish Behaviour % Spawned Out": [
+                "\u00f8",
+                0.239
+            ],
+            "Live Tagged": [
+                "8",
+                0.095
+            ],
+            "Other Species": [
+                "0",
+                0.299
+            ]
+        },
+        {
+            "Area": [
+                "5",
+                0.963
+            ],
+            "Live Count": [
+                "23/",
+                0.887
+            ],
+            "% O.E.": [
+                "70",
+                0.972
+            ],
+            "Fish Behaviour Holding/Migrating": [
+                "20%",
+                0.953
+            ],
+            "Fish Behaviour % Spawning": [
+                "80%",
+                0.196
+            ],
+            "Fish Behaviour % Spawned Out": [
+                "\u00e9",
+                0.26
+            ],
+            "Live Tagged": [
+                "\u20a1",
+                0.077
+            ],
+            "Other Species": [
+                "8",
+                0.059
+            ]
+        }
+    ],
+    "Sockeye Untagged Recoveries": [
+        {
+            "Area": [
+                "6",
+                0.977
+            ],
+            "Male": [
+                "2.",
+                0.573
+            ],
+            "Female": [
+                "7,",
+                0.571
+            ],
+            "Female Spawn NR": [
+                "2,",
+                0.892
+            ],
+            "Female Spawn 0%": [
+                "3",
+                0.947
+            ],
+            "Female Spawn 50%": [
+                "\u00f8",
+                0.333
+            ],
+            "Female Spawn 100%": [
+                "2.",
+                0.621
+            ],
+            "Jack": [
+                "0",
+                0.175
+            ],
+            "Unsexed": [
+                "0",
+                0.232
+            ]
+        },
+        {
+            "Area": [
+                "57",
+                0.575
+            ],
+            "Male": [
+                "1,",
+                0.805
+            ],
+            "Female": [
+                "2/",
+                0.614
+            ],
+            "Female Spawn NR": [
+                "1/",
+                0.705
+            ],
+            "Female Spawn 0%": [
+                "0",
+                0.164
+            ],
+            "Female Spawn 50%": [
+                "0",
+                0.169
+            ],
+            "Female Spawn 100%": [
+                "1",
+                0.651
+            ],
+            "Jack": [
+                "0",
+                0.366
+            ],
+            "Unsexed": [
+                "0",
+                0.068
+            ]
+        }
+    ]
+}

@@ -1,0 +1,270 @@
+{
+    "Date": [
+        "Sep/13/2020",
+        0.681
+    ],
+    "Stream": [
+        "Horsefly River",
+        0.885
+    ],
+    "Survey Start Time": [
+        "10.09",
+        0.731
+    ],
+    "Survey End Time": [
+        "14:36",
+        0.953
+    ],
+    "Survey type Ground": [
+        ":selected:",
+        0.967
+    ],
+    "Survey type Aerial": [
+        ":unselected:",
+        0.958
+    ],
+    "%Bankfull <25": [
+        ":unselected:",
+        0.969
+    ],
+    "%Bankfull 25-50": [
+        ":selected:",
+        0.954
+    ],
+    "%Bankfull 50-75": [
+        ":unselected:",
+        0.971
+    ],
+    "%Bankfull 75-100": [
+        ":unselected:",
+        0.969
+    ],
+    "%Bankfull +100": [
+        ":unselected:",
+        0.963
+    ],
+    "Weather Brightness Full": [
+        ":selected:",
+        0.972
+    ],
+    "Weather Brightness Bright": [
+        ":unselected:",
+        0.97
+    ],
+    "Weather Brightness Medium": [
+        ":unselected:",
+        0.97
+    ],
+    "Weather Brightness Dark": [
+        ":unselected:",
+        0.97
+    ],
+    "Weather %Cloudy 0": [
+        ":selected:",
+        0.972
+    ],
+    "Weather %Cloudy 25%": [
+        ":unselected:",
+        0.969
+    ],
+    "Weather %Cloudy 50%": [
+        ":unselected:",
+        0.966
+    ],
+    "Weather %Cloudy 75%": [
+        ":unselected:",
+        0.964
+    ],
+    "Weather %Cloudy 100%": [
+        ":unselected:",
+        0.963
+    ],
+    "Precipitation Type Rain": [
+        ":unselected:",
+        0.97
+    ],
+    "Precipitation Type Snow": [
+        ":unselected:",
+        0.968
+    ],
+    "Precipitation Type None": [
+        ":selected:",
+        0.965
+    ],
+    "Precipitation Intensity Light": [
+        ":unselected:",
+        0.974
+    ],
+    "Precipitation Intensity Medium": [
+        ":unselected:",
+        0.974
+    ],
+    "Precipitation Intensity Heavy": [
+        ":unselected:",
+        0.971
+    ],
+    "Water Conditions Fish Visibility Low": [
+        ":unselected:",
+        0.973
+    ],
+    "Water Conditions Fish Visibility Medium": [
+        ":selected:",
+        0.971
+    ],
+    "Water Conditions Fish Visibility High": [
+        ":unselected:",
+        0.973
+    ],
+    "Water Conditions Water Temperature": [
+        "12.50",
+        0.66
+    ],
+    "Water Conditions Water Clarity 0-0.25": [
+        ":unselected:",
+        0.973
+    ],
+    "Water Conditions Water Clarity 0.25-0.5": [
+        ":unselected:",
+        0.973
+    ],
+    "Water Conditions Water Clarity 0.5-1.0": [
+        ":unselected:",
+        0.973
+    ],
+    "Water Conditions Water Clarity 1-3": [
+        ":unselected:",
+        0.965
+    ],
+    "Water Conditions Water Clarity 3 to Bottom": [
+        ":selected:",
+        0.968
+    ],
+    "Comments": [
+        "ZM45 F PSC Samples included\nin recovery totals for Avea 5%",
+        0.487
+    ],
+    "Visual Survey": [
+        {
+            "Area": [
+                "5",
+                0.981
+            ],
+            "Live Count": [
+                "51",
+                0.433
+            ],
+            "% O.E.": [
+                "75)",
+                0.622
+            ],
+            "Fish Behaviour Holding/Migrating": [
+                "20",
+                0.74
+            ],
+            "Fish Behaviour % Spawning": [
+                "80,",
+                0.894
+            ],
+            "Live Tagged": [
+                "a",
+                0.085
+            ],
+            "Other Species": [
+                "e",
+                0.765
+            ]
+        },
+        {
+            "Area": [
+                "6",
+                0.974
+            ],
+            "Live Count": [
+                "37,",
+                0.897
+            ],
+            "% O.E.": [
+                "60",
+                0.822
+            ],
+            "Fish Behaviour Holding/Migrating": [
+                "40",
+                0.962
+            ],
+            "Fish Behaviour % Spawning": [
+                "60,",
+                0.71
+            ],
+            "Live Tagged": [
+                "0",
+                0.199
+            ],
+            "Other Species": [
+                "\u00f8",
+                0.244
+            ]
+        }
+    ],
+    "Sockeye Untagged Recoveries": [
+        {
+            "Area": [
+                "5",
+                0.977
+            ],
+            "Male": [
+                "2",
+                0.969
+            ],
+            "Female": [
+                "5",
+                0.964
+            ],
+            "Female Spawn 0%": [
+                "1.",
+                0.683
+            ],
+            "Female Spawn 50%": [
+                "2,",
+                0.825
+            ],
+            "Female Spawn 100%": [
+                "1/",
+                0.595
+            ],
+            "Jack": [
+                "\u00f8",
+                0.745
+            ],
+            "Unsexed": [
+                "\u20a1",
+                0.106
+            ]
+        },
+        {
+            "Area": [
+                "6",
+                0.968
+            ],
+            "Male": [
+                "2",
+                0.953
+            ],
+            "Female": [
+                "3",
+                0.48
+            ],
+            "Female Spawn 100%": [
+                "3,",
+                0.934
+            ],
+            "Jack": [
+                "0",
+                0.059
+            ],
+            "Unsexed": [
+                "0",
+                0.204
+            ]
+        }
+    ]
+}

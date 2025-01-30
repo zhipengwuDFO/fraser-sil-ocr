@@ -1,0 +1,186 @@
+{
+    "Date": [
+        "Sep202020/",
+        0.744
+    ],
+    "Stream": [
+        "Little Housefly",
+        0.452
+    ],
+    "Survey Start Time": [
+        "13:301",
+        0.651
+    ],
+    "Survey End Time": [
+        "14:20",
+        0.839
+    ],
+    "Survey type Ground": [
+        ":selected:",
+        0.955
+    ],
+    "Survey type Aerial": [
+        ":unselected:",
+        0.965
+    ],
+    "%Bankfull <25": [
+        ":unselected:",
+        0.967
+    ],
+    "%Bankfull 25-50": [
+        ":unselected:",
+        0.967
+    ],
+    "%Bankfull 50-75": [
+        ":selected:",
+        0.965
+    ],
+    "%Bankfull 75-100": [
+        ":unselected:",
+        0.965
+    ],
+    "%Bankfull +100": [
+        ":unselected:",
+        0.965
+    ],
+    "Weather Brightness Full": [
+        ":selected:",
+        0.969
+    ],
+    "Weather Brightness Bright": [
+        ":unselected:",
+        0.968
+    ],
+    "Weather Brightness Medium": [
+        ":unselected:",
+        0.968
+    ],
+    "Weather Brightness Dark": [
+        ":unselected:",
+        0.678
+    ],
+    "Weather %Cloudy 0": [
+        ":unselected:",
+        0.956
+    ],
+    "Weather %Cloudy 25%": [
+        ":unselected:",
+        0.963
+    ],
+    "Weather %Cloudy 50%": [
+        ":unselected:",
+        0.959
+    ],
+    "Weather %Cloudy 75%": [
+        ":selected:",
+        0.965
+    ],
+    "Weather %Cloudy 100%": [
+        ":unselected:",
+        0.841
+    ],
+    "Precipitation Type Rain": [
+        ":unselected:",
+        0.97
+    ],
+    "Precipitation Type Snow": [
+        ":unselected:",
+        0.967
+    ],
+    "Precipitation Type None": [
+        ":selected:",
+        0.97
+    ],
+    "Precipitation Intensity Light": [
+        ":unselected:",
+        0.972
+    ],
+    "Precipitation Intensity Medium": [
+        ":unselected:",
+        0.974
+    ],
+    "Precipitation Intensity Heavy": [
+        ":unselected:",
+        0.972
+    ],
+    "Water Conditions Fish Visibility Low": [
+        ":unselected:",
+        0.968
+    ],
+    "Water Conditions Fish Visibility Medium": [
+        ":unselected:",
+        0.965
+    ],
+    "Water Conditions Fish Visibility High": [
+        ":selected:",
+        0.973
+    ],
+    "Water Conditions Water Clarity 0-0.25": [
+        ":unselected:",
+        0.971
+    ],
+    "Water Conditions Water Clarity 0.25-0.5": [
+        ":unselected:",
+        0.966
+    ],
+    "Water Conditions Water Clarity 0.5-1.0": [
+        ":unselected:",
+        0.971
+    ],
+    "Water Conditions Water Clarity 1-3": [
+        ":unselected:",
+        0.969
+    ],
+    "Water Conditions Water Clarity 3 to Bottom": [
+        ":selected:",
+        0.969
+    ],
+    "Comments": [
+        "Mostfishlook Fresh,\nlivelaminook pretty beat\nUP/",
+        0.253
+    ],
+    "Visual Survey": [
+        {
+            "Area": [
+                "3",
+                0.859
+            ],
+            "Live Count": [
+                "19,",
+                0.659
+            ],
+            "% O.E.": [
+                "80",
+                0.83
+            ],
+            "Fish Behaviour % Spawning": [
+                "90",
+                0.861
+            ],
+            "Fish Behaviour % Spawned Out": [
+                "10 %",
+                0.045
+            ]
+        },
+        {
+            "Area": [
+                "4",
+                0.896
+            ],
+            "% O.E.": [
+                "80",
+                0.544
+            ]
+        },
+        {
+            "Area": [
+                "5",
+                0.831
+            ],
+            "% O.E.": [
+                "80",
+                0.852
+            ]
+        }
+    ]
+}

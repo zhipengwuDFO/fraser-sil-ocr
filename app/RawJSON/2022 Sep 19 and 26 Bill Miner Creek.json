@@ -1,0 +1,168 @@
+{
+    "Date": [
+        "09/19/2022",
+        0.89
+    ],
+    "Stream": [
+        "Bill Miner Creek",
+        0.593
+    ],
+    "Survey Start Time": [
+        "945",
+        0.957
+    ],
+    "Survey End Time": [
+        "1000",
+        0.972
+    ],
+    "Survey type Ground": [
+        ":selected:",
+        0.835
+    ],
+    "Survey type Aerial": [
+        ":unselected:",
+        0.953
+    ],
+    "%Bankfull <25": [
+        ":unselected:",
+        0.968
+    ],
+    "%Bankfull 25-50": [
+        ":selected:",
+        0.968
+    ],
+    "%Bankfull 50-75": [
+        ":unselected:",
+        0.971
+    ],
+    "%Bankfull 75-100": [
+        ":unselected:",
+        0.962
+    ],
+    "%Bankfull +100": [
+        ":unselected:",
+        0.964
+    ],
+    "Weather Brightness Full": [
+        ":selected:",
+        0.973
+    ],
+    "Weather Brightness Bright": [
+        ":unselected:",
+        0.971
+    ],
+    "Weather Brightness Medium": [
+        ":unselected:",
+        0.973
+    ],
+    "Weather Brightness Dark": [
+        ":unselected:",
+        0.965
+    ],
+    "Weather %Cloudy 0": [
+        ":unselected:",
+        0.969
+    ],
+    "Weather %Cloudy 25%": [
+        ":selected:",
+        0.972
+    ],
+    "Weather %Cloudy 50%": [
+        ":unselected:",
+        0.969
+    ],
+    "Weather %Cloudy 75%": [
+        ":unselected:",
+        0.966
+    ],
+    "Weather %Cloudy 100%": [
+        ":unselected:",
+        0.966
+    ],
+    "Precipitation Type Rain": [
+        ":unselected:",
+        0.974
+    ],
+    "Precipitation Type Snow": [
+        ":unselected:",
+        0.974
+    ],
+    "Precipitation Type None": [
+        ":selected:",
+        0.974
+    ],
+    "Precipitation Intensity Light": [
+        ":unselected:",
+        0.97
+    ],
+    "Precipitation Intensity Medium": [
+        ":unselected:",
+        0.97
+    ],
+    "Precipitation Intensity Heavy": [
+        ":unselected:",
+        0.97
+    ],
+    "Water Conditions Fish Visibility Low": [
+        ":unselected:",
+        0.968
+    ],
+    "Water Conditions Fish Visibility Medium": [
+        ":unselected:",
+        0.971
+    ],
+    "Water Conditions Fish Visibility High": [
+        ":selected:",
+        0.975
+    ],
+    "Water Conditions Water Temperature": [
+        "6.5\u2103",
+        0.064
+    ],
+    "Water Conditions Water Clarity 0-0.25": [
+        ":unselected:",
+        0.97
+    ],
+    "Water Conditions Water Clarity 0.25-0.5": [
+        ":unselected:",
+        0.97
+    ],
+    "Water Conditions Water Clarity 0.5-1.0": [
+        ":unselected:",
+        0.97
+    ],
+    "Water Conditions Water Clarity 1-3": [
+        ":unselected:",
+        0.968
+    ],
+    "Water Conditions Water Clarity 3 to Bottom": [
+        ":selected:",
+        0.967
+    ],
+    "Visual Survey": [
+        {
+            "Area": [
+                "Mooth",
+                0.324
+            ],
+            "Live Count": [
+                "0",
+                0.709
+            ]
+        },
+        {
+            "Area": [
+                "1",
+                0.803
+            ],
+            "Live Count": [
+                "0",
+                0.861
+            ],
+            "% O.E.": [
+                "95",
+                0.898
+            ]
+        }
+    ]
+}
