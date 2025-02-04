@@ -1,26 +1,49 @@
-import fs from 'fs/promises';
-import path from 'path';
+// fetch the data from the blob storage, combine them and return the data to the frontend
+// data contain the file name and the folder name and verified data
+import { BlobServiceClient } from "@azure/storage-blob";
 
-export async function POST(request: any): Promise<any> {
+import { NextRequest } from "next/server";
+
+export async function POST(request: NextRequest) {
+  // You need to set up these variables with your values
+
   const { fileName } = await request.json();
 
-    const directoryPath = path.join(process.cwd(), `/app/JsonFiles/${fileName}`);
-    console.log(directoryPath);
+  const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING;
+  if (!connectionString) {
+    throw new Error("AZURE_STORAGE_CONNECTION_STRING is not defined");
+  }
 
+  const containerName = "quesnel-ground";
+  const bolbName = "update_jsons";
 
   try {
-    const files = await fs.readFile(directoryPath);
- 
+    // Create a BlobServiceClient
+    const blobServiceClient =
+      BlobServiceClient.fromConnectionString(connectionString);
+    // Get a container client from the BlobServiceClient
+    const containerClient = blobServiceClient.getContainerClient(
+      `${containerName}/${bolbName}`
+    );
 
-    const fileContent = await fs.readFile(directoryPath, 'utf-8');
-    return new Response(fileContent, {
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    });
-  } catch (err) {
-    console.error('Unable to scan directory:', err);
-    return new Response('Unable to scan directory');
+    const blockBlobClient = containerClient.getBlockBlobClient(fileName);
+    const blobExists = await blockBlobClient.exists();
+
+    if (blobExists) {
+      //   // Blob exists, fetch its content
+      const response = await blockBlobClient.downloadToBuffer();
+      const blobContent = JSON.parse(response.toString());
+      const updatedJsonData = JSON.stringify(blobContent, null, 2);
+      return new Response(updatedJsonData, { status: 200 });
+    } else {
+      throw new Error("Blob does not exist");
+    }
+  } catch (error) {
+    console.error("Error reading response:", error);
+    if (error instanceof Error) {
+      return new Response(error.message, { status: 500 });
+    } else {
+      return new Response("An unknown error occurred", { status: 500 });
+    }
   }
-};
-
+}

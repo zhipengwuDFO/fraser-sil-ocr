@@ -1,9 +1,11 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext  } from "react";
 import getJsonFile from "@/app/utility/getJsonFile";
 import { CircularProgress } from "@mui/material";
 import FirstPage from "./FirstPage";
 import SecondPage from "./SecondPage";
+import { JsonDataContext } from "@/app/store/jsonData-context";
+
 
 type Props = {
   slug: string;
@@ -12,6 +14,8 @@ type Props = {
 
 const RenderJson = (props: Props) => {
   const { slug, className } = props;
+
+  const ctx = useContext(JsonDataContext);
 
   interface JsonData {
     name: string;
@@ -30,6 +34,9 @@ const RenderJson = (props: Props) => {
 
     setJsonData(data);
 
+    ctx.updataJsonData(data);
+    ctx.setOriginalJsonData(data);
+
     setIsLoading(false);
   };
 
@@ -47,7 +54,7 @@ const RenderJson = (props: Props) => {
         </div>
       ) : !isEmpty(jsonData) ? (
         <div className="flex flex-col gap-10 mt-16">
-          <FirstPage className ='min-h-[50vh]  border-green-600 border-2 rounded-lg ' />
+          <FirstPage  className ='min-h-[50vh]  border-green-600 border-2 rounded-lg ' />
           <SecondPage className='min-h-[50vh]  border-green-600 border-2 rounded-lg' />
          
         </div>

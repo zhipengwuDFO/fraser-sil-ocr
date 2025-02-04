@@ -1,16 +1,22 @@
-import React from 'react'
+import React ,{useContext} from 'react'
 import SectionOne from './FirstPage/SectionOne';
 import SectionTwo from './FirstPage/SectionTwo';
 import SectionThree from './FirstPage/SectionThree';
+import { JsonDataContext } from "@/app/store/jsonData-context";
 
 type Props = {
 
     className?: string;
+ 
 
 }
 
 const FirstPage = (props: Props) => {
   const { className } = props;
+  const ctx = useContext(JsonDataContext);
+  let data = ctx.jsonData;
+
+
 
   return (
     <div className={`${className} flex flex-col `}>

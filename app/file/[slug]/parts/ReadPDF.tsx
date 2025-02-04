@@ -6,20 +6,31 @@ import { CircularProgress } from "@mui/material";
 type Props = {
   slug: string;
   className?: string;
+  onLink: (link: string) => void;
 };
 
 const ReadPDF = (props: Props) => {
-  const [pdfData, setPdfData] = useState<Blob | null>(null);
+  const [pdfData, setPdfData] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
   const getData = async () => {
     setIsLoading(true);
 
-    let pdfName = props.slug + ".pdf";
+    const { slug, onLink } = props;
+
+    let pdfName = slug + ".pdf";
    
     const data = await getPDFFile(pdfName);
     if (data) {
-      setPdfData(data);
+   
+     
+
+      const blob = new Blob([data], { type: "application/pdf" });
+      const url = URL.createObjectURL(blob);
+     
+      setPdfData(url);
+      onLink(url);
+
     }
     setIsLoading(false);
   };
@@ -38,7 +49,7 @@ const ReadPDF = (props: Props) => {
       ) : pdfData ? (
         <div className="h-[1000px]">
         <iframe
-          src={URL.createObjectURL(pdfData)}
+          src={pdfData}
           width="100%"
           height="100%"
           title={slug}

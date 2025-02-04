@@ -29,18 +29,20 @@ const FileList = (props: Props) => {
     <div className={`${className} p-4`}>
       {isLoading ? (
         <div className="flex justify-center items-center h-full">
-        <CircularProgress />
+          <CircularProgress />
         </div>
       ) : fileNames.length ? (
-        fileNames.map((fileName: string, index:number ) => (
-          <li className="hover:text-red-600 hover:underline hover:font-semibold list-none"  key={index}>
-            
-            <Link href={`/file/${fileName.replace(/\.json$/, "")}`}>
-        
-            {fileName.replace(/\.json$/, "").replace(/_/g, " ")}
-            </Link>
+        fileNames.map((fileName: string, index: number) => {
+          let name = fileName.replace(/\.json$/, "");
+          return (
+            <li
+              className="hover:text-red-600 hover:underline hover:font-semibold list-none"
+              key={index}
+            >
+              <Link href={`/file/${name}`}>{name.replace(/_/g, " ")}</Link>
             </li>
-        ))
+          );
+        })
       ) : (
         <div>No files</div>
       )}

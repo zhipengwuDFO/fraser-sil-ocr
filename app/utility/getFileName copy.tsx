@@ -4,11 +4,10 @@ const getFileNames = async (): Promise<any> => {
     let jsonData;
 
     let response = await fetch("/api/fileNamesAPI", {
-      method: "POST",
+      method: "GET",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify("test"),
  
     });
   

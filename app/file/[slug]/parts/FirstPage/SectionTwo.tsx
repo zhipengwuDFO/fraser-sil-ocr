@@ -1,5 +1,6 @@
-import { Input } from "postcss";
-import React from "react";
+
+import React, {useContext} from "react";
+import { JsonDataContext } from "@/app/store/jsonData-context";
 
 type Props = {
   className?: string;
@@ -7,6 +8,9 @@ type Props = {
 
 const SectionTwo = (props: Props) => {
   const { className } = props;
+    const ctx = useContext(JsonDataContext);
+    let data = ctx.jsonData;
+  
   return (
     <div className={`${className} border-r-2 border-green-600  `}>
       <div className="grid grid-cols-12 border-b border-green-600 ">

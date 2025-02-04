@@ -37,7 +37,7 @@ const getFileNames = async (fileName: string): Promise<any> => {
       // Release the reader's lock when done
       reader.releaseLock();
 
-     console.log(jsonData);
+
       return jsonData; // Return the processed JSON data
     }
   };

@@ -1,5 +1,5 @@
-import { Tab } from "@mui/material";
-import React from "react";
+import React, {useContext} from "react";
+import { JsonDataContext } from "@/app/store/jsonData-context";
 
 type Props = {
   className?: string;
@@ -7,6 +7,8 @@ type Props = {
 
 const SectionThree = (props: Props) => {
   const { className } = props;
+  const ctx = useContext(JsonDataContext);
+  let data = ctx.jsonData;  
   return (
     <div className={`${className} grid grid-cols-12 `}>
       {/* Survey Time*/}
