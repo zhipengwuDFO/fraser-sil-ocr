@@ -1,7 +1,5 @@
-
 import React from "react";
-import PageClient from './PageClient'
-
+import PageAuth from "./PageAuth";
 export default async function Page({
   params,
 }: {
@@ -9,9 +7,5 @@ export default async function Page({
 }) {
   const slug = (await params).slug;
 
-  return (
-
-       <PageClient slug={slug} />
-  
-  );
+  return <PageAuth slug={slug} />;
 }

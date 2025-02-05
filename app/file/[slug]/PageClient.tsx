@@ -9,6 +9,7 @@ import { LetsIconsCheckFill } from "@/app/components/Icons";
 import JsonDataContextProvider from "@/app/store/jsonData-context";
 import Tooltip from "@mui/material/Tooltip";
 import Slider from "@mui/material/Slider";
+
 type Props = {
   slug: string;
 };
@@ -142,20 +143,20 @@ const PageClient = (props: Props) => {
             OCR output.
           </div>
         </div>
-        <div className="col-span-12 px-10">
+        <div className="col-span-12 px-2">
           <Slider
             size="small"
             aria-label="Always visible"
             value={screenSize}
             max={12}
-            min = {0}
+            min={0}
             onChange={(e, value) => {
               const numericValue = value as number;
               setScreenSize(numericValue);
               setJsonGrid(`col-span-${numericValue}`);
               if (numericValue === 0) {
                 setJsonGrid(`hidden`);
-              } else{
+              } else {
                 setJsonGrid(`col-span-${numericValue}`);
               }
 
